@@ -1,4 +1,9 @@
 
+/* Data de submissao:13/04/2020
+ * Nome: Tony Tian Rui Li
+ * RA:206373
+ */
+ 
 %{
 #include <stdio.h>
   #include <stdlib.h>
@@ -15,7 +20,6 @@ Parser:
 
 J:
  '{' X '}' {}
- |'{' X '\n' '}' {}
  ;
 
 X:

@@ -451,17 +451,21 @@ int yy_flex_debug = 0;
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
 #line 1 "src/main.l"
-#line 3 "src/main.l"
+/* Data de submissao:13/04/2020
+ * Nome: Tony Tian Rui Li
+ * RA:206373
+ */
+#line 7 "src/main.l"
 #include <stdlib.h>
 void yyerror(char *);
 
 #include "y.tab.h"
 
-#line 461 "src/lex.yy.c"
+#line 465 "src/lex.yy.c"
 /*
 %token '{' '}' '[' ']' ':' '"' ',' INT STR FLOAT 
 */
-#line 465 "src/lex.yy.c"
+#line 469 "src/lex.yy.c"
 
 #define INITIAL 0
 
@@ -678,10 +682,10 @@ YY_DECL
 		}
 
 	{
-#line 14 "src/main.l"
+#line 18 "src/main.l"
 
 
-#line 685 "src/lex.yy.c"
+#line 689 "src/lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -740,77 +744,77 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 16 "src/main.l"
+#line 20 "src/main.l"
 {return '{';}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 17 "src/main.l"
+#line 21 "src/main.l"
 {return '}';}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 18 "src/main.l"
+#line 22 "src/main.l"
 {return '"';}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 19 "src/main.l"
+#line 23 "src/main.l"
 {return ':';}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 20 "src/main.l"
+#line 24 "src/main.l"
 {return ',';}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 21 "src/main.l"
+#line 25 "src/main.l"
 {return '[';}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 22 "src/main.l"
+#line 26 "src/main.l"
 {return ']';}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 23 "src/main.l"
+#line 27 "src/main.l"
 {return INT;}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 24 "src/main.l"
+#line 28 "src/main.l"
 {return STR;}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 25 "src/main.l"
+#line 29 "src/main.l"
 {return FLOAT;}
 	YY_BREAK
 case 11:
 /* rule 11 can match eol */
 YY_RULE_SETUP
-#line 26 "src/main.l"
+#line 30 "src/main.l"
 
 	YY_BREAK
 case 12:
 /* rule 12 can match eol */
 YY_RULE_SETUP
-#line 27 "src/main.l"
+#line 31 "src/main.l"
 ;
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 28 "src/main.l"
+#line 32 "src/main.l"
 ;
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 30 "src/main.l"
+#line 34 "src/main.l"
 ECHO;
 	YY_BREAK
-#line 814 "src/lex.yy.c"
+#line 818 "src/lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1815,7 +1819,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 30 "src/main.l"
+#line 34 "src/main.l"
 
 
 int yywrap() {
